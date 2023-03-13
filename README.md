@@ -1,11 +1,6 @@
-[![Gitpod ready-to-code](https://img.shields.io/badge/Gitpod-ready--to--code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/carpentries-incubator/docker-introduction)
-[![The Carpentries Lab Review Status](http://badges.carpentries-lab.org/15_status.svg)](https://github.com/carpentries-lab/reviews/issues/15)
-
 # Reproducible computational environments using containers: Introduction to Docker
 
-[![Create a Slack Account with us](https://img.shields.io/badge/Create_Slack_Account-The_Carpentries-071159.svg)](https://swc-slack-invite.herokuapp.com/)
-
-This repository generates the corresponding lesson website from [The Carpentries](https://carpentries.org/) repertoire of lessons. 
+This repository generates the Imageomics Docker lesson website, based on the Beta version [The Carpentries Incubator](https://carpentries-incubator.org/) repertoire of lessons. 
 
 If you are interested in Singularity as opposed to Docker, see the Singularity lesson in the Carpentries Incubator: 
 * [Reproducible Computational Environments Using Containers: Introduction to Singularity](https://github.com/carpentries-incubator/singularity-introduction)
@@ -28,7 +23,7 @@ Look for the tag ![good_first_issue](https://img.shields.io/badge/-good%20first%
 
 ## Maintainer(s)
 
-Current maintainers of this lesson are 
+Maintainers of this lesson before forking are  
 
 * [Jeremy Cohen](https://github.com/jcohen02)
 * [David Eyers](https://github.com/dme26/)
@@ -36,6 +31,9 @@ Current maintainers of this lesson are
 * [Andy Turner](https://github.com/aturner-epcc)
 * [Sarah Stevens](https://github.com/sstevens2/) - Send emails with questions here
 
+After forking
+
+* [Matthew Thompson](https://github.com/thompsonmj)
 
 ## Authors
 
