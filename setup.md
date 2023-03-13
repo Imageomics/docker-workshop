@@ -12,6 +12,9 @@ Download the [`docker-intro.zip`]({{ page.root }}/files/docker-intro.zip) file. 
 Move the downloaded file to your Desktop and unzip it. It should unzip to a folder called `docker-intro`. 
 
 ### Software to install
+You will need a Unix Shell. Please refer to the following for installation and setup:
+[The Bash Shell](https://carpentries.github.io/workshop-template/#shell)
+
 Docker's installation experience has steadily improved, however situations will arise in which installing Docker on your computer may not be straightforward unless you have a large amount of technical experience.
 Workshops try to have helpers on hand that have worked their way through the install process, but do be prepared for some troubleshooting.
 
