@@ -50,6 +50,8 @@ If you are unable to follow the above instructions to install Docker Desktop on 
 > This should suppress the path translation functionality in Git Bash.
 {: .callout}
 
+When running Docker Desktop, you may encounter an error stating 'You are not allowed to use Docker. You must be in the "docker-users" group.' You should run Docker as an administrator in this case.
+
 #### Apple macOS
 
 Ideally, you will be able to install the Docker Desktop software, following the
