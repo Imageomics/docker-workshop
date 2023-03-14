@@ -106,12 +106,12 @@ remote_theme: carpentries/carpentries-theme@main
 
 # episode order
 episode_order:
-    - introduction
-    - meet-docker
-    - running-containers
-    - managing-containers
-    - docker-hub
-    - creating-container-images
-    - advanced-containers
-    - docker-image-examples
-    - reproduciblity
+    - 01_introducing-containers
+    - 02_introducing-the-docker-command-line
+    - 03_exploring-and-running-containers
+    - 04_cleaning-up-containers
+    - 05_finding-images-on-registries
+    - 06_creating-your-own-container-images
+    - 07_creating-more-complex-container-images
+    - 08_examples-of-using-container-images-in-practice
+    - 09_containers-in-research-workflows-reproducibility-and-granularity
