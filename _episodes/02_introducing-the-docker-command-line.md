@@ -1,6 +1,6 @@
 ---
 title: "Introducing the Docker Command Line"
-teaching: 10
+teaching: 5
 exercises: 0
 questions:
 - "How do I know Docker is installed and running?"
@@ -40,12 +40,11 @@ $ docker --version
 ~~~
 {: .language-bash}
 ~~~
-Docker version 20.10.5, build 55c4c88
+Docker version 20.10.23, build 7155243
 ~~~
 {: .output}
 
-The above command has not actually relied on the part of Docker that runs containers, just that Docker
-is installed and you can access it correctly from the command line.
+The above command has not actually relied on the part of Docker that runs containers, just that Docker is installed and you can access it correctly from the command line.
 
 A command that checks that Docker is working correctly is the `docker container ls` command (we cover this command in more detail later in the course).
 
@@ -228,10 +227,11 @@ Options:
 ~~~
 {: .output}
 
-You may notice that there are many commands that stem from the `docker` command. Instead of trying to remember
-all possible commands and options, it's better to learn how to effectively get help from the command line. Although
-we can always search the web, getting the built-in help from our tool is often much faster and may provide the answer
-right away. This applies not only to Docker, but also to most command line-based tools.
+Don't try to remember all the commands.
+
+Instead, focus on learning the concepts behind what you can do and how to look up the commands and syntax to accomplish things.
+
+Command line help is an efficient way to do this.
 
 > ## Docker Command Line Interface (CLI) syntax
 >
