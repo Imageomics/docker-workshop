@@ -1,7 +1,7 @@
 ---
 title: "Exploring and Running Containers"
-teaching: 20
-exercises: 10
+teaching: 10
+exercises: 5
 questions:
 - "How do I interact with Docker containers and container images on my computer?"
 objectives:
