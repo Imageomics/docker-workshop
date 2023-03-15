@@ -1,6 +1,6 @@
 ---
 title: "Cleaning Up Containers"
-teaching: 10
+teaching: 5
 exercises: 0
 questions:
 - "How do I interact with a Docker container on my computer?"
