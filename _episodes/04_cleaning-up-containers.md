@@ -1,5 +1,5 @@
 ---
-title: "Cleaning Up Containers"
+title: "4. Cleaning Up Containers"
 teaching: 5
 exercises: 0
 questions:
