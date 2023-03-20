@@ -1,7 +1,7 @@
 ---
-title: "Finding Containers on Docker Hub"
+title: "5. Finding Containers on Docker Hub"
 teaching: 10
-exercises: 10
+exercises: 0
 questions:
 - "What is the Docker Hub, and why is it useful?"
 objectives:
