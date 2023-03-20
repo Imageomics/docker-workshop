@@ -1,6 +1,6 @@
 ---
-title: "Examples of Using Container Images in Practice"
-teaching: 20
+title: "7. Examples of Using Container Images in Practice"
+teaching: 10
 exercises: 0
 questions:
 - "How can I use Docker for my own work?"
