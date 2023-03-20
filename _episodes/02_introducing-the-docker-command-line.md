@@ -1,5 +1,5 @@
 ---
-title: "Introducing the Docker Command Line"
+title: "2. Introducing the Docker Command Line"
 teaching: 5
 exercises: 0
 questions:
