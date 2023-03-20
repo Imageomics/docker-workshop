@@ -1,5 +1,5 @@
 ---
-title: "5. Finding Containers on Docker Hub"
+title: "5. Finding Images on Registries"
 teaching: 10
 exercises: 0
 questions:
