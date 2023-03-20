@@ -1,5 +1,5 @@
 ---
-title: "Exploring and Running Containers"
+title: "3. Exploring and Running Containers"
 teaching: 10
 exercises: 5
 questions:
