@@ -11,9 +11,16 @@ keypoints:
 ---
 
 Now that we have learned the basics of working with Docker container images and containers,
-let's apply what we learned to an example workflow.
+let's apply what we learned to an example workflow component.
 
 You may choose one or more of the following examples to practice using containers.
+
+## Data Commons Access
+
+In this example, you can use the [Dataverse Access](https://github.com/Imageomics/dataverse-access) command line tool to interface with the Ohio State University instance of the [Dataverse](https://dataverse.org/) called the [Data Commons](https://datacommons.tdai.osu.edu/).
+
+To get the tool, run:
+
 
 ## Jekyll Website Example
 
