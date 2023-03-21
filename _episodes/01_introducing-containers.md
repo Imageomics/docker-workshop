@@ -19,7 +19,7 @@ keypoints:
 - "Docker is just one software platform that can create containers and the resources they use."
 ---
 
-> ## Docker for Research in 160s
+> ## Docker for Research
 >
 > Introductory video by the Australian Research Data Commons
 >
