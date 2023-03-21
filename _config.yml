@@ -7,7 +7,7 @@
 # dc: Data Carpentry
 # lc: Library Carpentry
 # cp: Carpentries (to use for instructor traning for instance)
-carpentry: "incubator"
+carpentry: "swc"
 
 # Overall title for pages.
 title: "Reproducible Computational Environments Using Containers: Introduction to Docker"
