@@ -35,6 +35,13 @@ Start the Docker application that you installed in working through the setup ins
 
 Once your Docker application is running, open a shell (terminal) window, and run the following command to check that Docker is installed and the command line tools are working correctly. Below is the output for a Mac version, but the specific version is unlikely to matter much: it does not have to precisely match the one listed below.
 
+First, let's set up a directory to work out of for the lesson.
+~~~
+$ mkdir ~/projects/docker-demo
+$ cd ~/projects/docker-demo
+~~~
+
+Next, let's see if Docker is installed as expected.
 ~~~
 $ docker --version
 ~~~
@@ -66,6 +73,11 @@ Cannot connect to the Docker daemon at unix:///var/run/docker.sock. Is the docke
 {: .output}
 
 then you need to check that you have started the Docker Desktop, Docker Engine, or however else you worked through the setup instructions.
+
+We can also see what images are downloaded:
+~~~
+$ docker image ls
+~~~
 
 ## Getting help
 Often when working with a new command line tool, we need to get help. These tools often have some
