@@ -57,7 +57,7 @@ $ docker run dva-image dva ls doi:10.5072/FK2/B7LCCX --url https://datacommons.t
 
 We can use this tool to download data with a dedicated DOI by mounting a local volume to our current directory.
 ~~~
-$ docker container run -v $(pwd)/data:/data -it dva-image dva download doi:10.5072/FK2/B7LCCX/data --url https://datacommons.tdai.osu.edu/
+$ docker container run -v $(pwd)/data:/data -it dva-image dva download doi:10.5072/FK2/B7LCCX /data --url https://datacommons.tdai.osu.edu/
 ~~~
 {: .language-bash}
 Note: using Git Bash on Windows will require the addition of an extra `/` before paths and prefixing `winpty` before the command.
