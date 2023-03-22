@@ -20,6 +20,51 @@ You may choose one or more of the following examples to practice using container
 In this example, you can use the [Dataverse Access](https://github.com/Imageomics/dataverse-access) command line tool to interface with the Ohio State University instance of the [Dataverse](https://dataverse.org/) called the [Data Commons](https://datacommons.tdai.osu.edu/).
 
 To get the tool, run:
+~~~
+$ docker image pull ghcr.io/imageomics/dataverse-access
+~~~
+{: .language-bash}
+
+Since this is a relatively long name, we might save time with it by renaming using the `tag` command.
+~~~
+$ docker tag ghcr.io/imageomics/dataverse-access dva-image
+~~~
+{: .language-bash}
+
+Now, let's see what running it does:
+~~~
+$ docker container run dva-image 
+~~~
+{: .language-bash}
+~~~
+Usage: dva [OPTIONS] COMMAND [ARGS]...
+
+Options:
+  --help  Show this message and exit.
+
+Commands:
+  download  Download files within dataset DOI to DEST folder.
+  ls        List files within a Dataverse dataset DOI.
+  setup     Create config file to store a Dataverse URL and token for use...
+  upload    Upload SRC files to a pre-existing dataset(DOI).
+~~~
+{: .output}
+
+It looks like we can use this tool to `ls` data within a DOI. Let's try an example.
+~~~
+$ docker run dva-image dva ls doi:10.5072/FK2/B7LCCX --url https://datacommons.tdai.osu.edu/
+~~~
+
+We can use this tool to download data with a dedicated DOI by mounting a local volume to our current directory.
+~~~
+$ docker container run -v $(pwd)/data:/data -it dva-image dva download doi:10.5072/FK2/B7LCCX/data --url https://datacommons.tdai.osu.edu/
+~~~
+{: .language-bash}
+Note: using Git Bash on Windows will require the addition of an extra `/` before paths and prefixing `winpty` before the command.
+~~~
+$ winpty docker container run -v /$(pwd)/data://data -it dva-image dva download doi:10.5072/FK2/B7LCCX //data --url https://datacommons.tdai.osu.edu/
+~~~
+{: .language-bash}
 
 
 ## Jekyll Website Example
