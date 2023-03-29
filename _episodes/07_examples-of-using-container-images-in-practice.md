@@ -60,11 +60,18 @@ We can use this tool to download data with a dedicated DOI by mounting a local v
 $ docker container run -v $(pwd)/data:/data -it dva-image dva download doi:10.5072/FK2/B7LCCX /data --url https://datacommons.tdai.osu.edu/
 ~~~
 {: .language-bash}
-Note: using Git Bash on Windows will require the addition of an extra `/` before paths and prefixing `winpty` before the command.
+
+Note: Using the Windows Command Prompt will require a different command than `$(pwd)` to mount the new `data/` volume into our current directory:
+~~~
+$ docker container run -v %cd%/data:/data -it dva-image dva download doi:10.5072/FK2/B7LCCX /data --url https://datacommons.tdai.osu.edu/
+~~~
+{: .language-cmd}
+
+And using Git Bash on Windows will require the addition of an extra `/` before paths and prefixing `winpty` before the command.
 ~~~
 $ winpty docker container run -v /$(pwd)/data://data -it dva-image dva download doi:10.5072/FK2/B7LCCX //data --url https://datacommons.tdai.osu.edu/
 ~~~
-{: .language-bash}
+{: .language-git-bash-for-windows}
 
 
 ## Jekyll Website Example
